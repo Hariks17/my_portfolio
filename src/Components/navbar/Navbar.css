@@ -82,7 +82,25 @@
   padding: 2rem 2rem;
   margin: 2rem 0;
 }
+.social_media_container {
+  display: flex;
+  font-size: 2rem;
+  align-items: center;
+  gap: 10rem;
+  margin-top: 5rem;
+  justify-content: space-between;
+}
+.socia-media-list {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 3rem;
 
+  color: var(--main-grey-dark);
+}
+/* Responsive Design */
 @media (max-width: 1000px) {
   .nav {
     padding: 0;
@@ -104,6 +122,11 @@
   }
   .my_name {
     font-size: 6rem;
+  }
+  .social_media_container {
+    flex-direction: column;
+    margin-top: 2rem;
+    gap: 2rem;
   }
 }
 @media (max-width: 650px) {
