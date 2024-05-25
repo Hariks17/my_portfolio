@@ -1,7 +1,45 @@
 import React from "react";
 import "./Navbar.css";
 const Navbar = () => {
-  return <div>Navbar</div>;
+  return (
+    <section className="hero-header">
+      <nav className="nav">
+        <div className="logo">Hari</div>
+        <div className="menu__bar">
+          <ul className="menu__list">
+            <li className="menu__list__item">
+              <a href="#" className="menu__list__link">
+                About Me
+              </a>
+            </li>
+            <li className="menu__list__item">
+              <a href="#" className="menu__list__link">
+                Tech Stacks
+              </a>
+            </li>
+            <li className="menu__list__item">
+              <a href="#" className="menu__list__link">
+                My Projects
+              </a>
+            </li>
+            <li className="menu__list__item">
+              <a href="#" className="menu__list__link">
+                Contact Me
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div className="contact_me">
+          <button className="contact_me_btn">Contact Me</button>
+        </div>
+      </nav>
+      <div className="hero-container">
+        <p className="hello_world">{`<>Hello World!</>`}</p>
+        <p className="my_name">Im Hariharan Sankar</p>
+        <button className="download_cv">Download CV!</button>
+      </div>
+    </section>
+  );
 };
 
 export default Navbar;

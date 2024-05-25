@@ -1,0 +1,117 @@
+.hero-header {
+  background-color: black;
+  height: 100vh;
+  font-size: 1.6rem;
+  padding: 4rem;
+}
+.logo {
+  text-transform: uppercase;
+}
+.nav {
+  height: 70px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+}
+.logo {
+  color: var(--main-orange);
+  font-size: 3rem;
+  font-weight: bold;
+}
+.menu__list {
+  display: flex;
+  gap: 2rem;
+}
+.menu__list__link {
+  color: var(--main-grey-dark);
+}
+.menu__list__link:hover {
+  border-bottom: 2px solid var(--main-orange);
+}
+.contact_me_btn {
+  padding: 1rem 1.5rem;
+  border: none;
+  border-radius: 20px;
+  font-size: 2rem;
+  background-color: var(--main-orange);
+  color: black;
+  cursor: pointer;
+}
+.hero-container {
+  color: var(--main-grey-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 70%;
+  overflow: hidden;
+}
+.hello_world {
+  color: var(--main-grey-dark);
+  font-size: 4.4rem;
+}
+.my_name {
+  font-size: 9.8rem;
+  margin: 2rem 0;
+}
+.download_cv {
+  background-color: black;
+  border: 3px solid var(--main-grey-dark);
+  color: var(--main-grey-dark);
+  font-size: 2.4rem;
+  cursor: pointer;
+  padding: 2rem 2rem;
+  margin: 2rem 0;
+}
+
+@media (max-width: 1000px) {
+  .nav {
+    padding: 0;
+  }
+  .menu__list {
+    display: none;
+  }
+  .hello_world {
+    font-size: 4.4rem;
+  }
+  .my_name {
+    font-size: 7.4rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .hello_world {
+    font-size: 4.4rem;
+  }
+  .my_name {
+    font-size: 6rem;
+  }
+}
+@media (max-width: 650px) {
+  .hero-header {
+    padding: 1rem;
+  }
+  .hello_world {
+    font-size: 2rem;
+  }
+  .my_name {
+    font-size: 2.5rem;
+  }
+  .download_cv {
+    padding: 1rem 1rem;
+    font-size: 2rem;
+  }
+}
+/*
+--- 01 TYPOGRAPHY SYSTEM
+
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+--- 07 WHITESPACE
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+*/

@@ -3,7 +3,8 @@
 :root {
   --main-blue: #14213d;
   --main-orange: #fca311;
-  --main-grey: #e5e5e5;
+  --main-grey-light: #e5e5e5;
+  --main-grey-dark: #5c5c5c;
 }
 * {
   margin: 0;
@@ -29,5 +30,5 @@ img {
   height: auto;
 }
 a {
-  text-decoration: inherit; /* no underline */
+  text-decoration: none; /* no underline */
 }
