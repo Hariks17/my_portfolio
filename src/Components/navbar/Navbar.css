@@ -3,6 +3,23 @@
   height: 100vh;
   font-size: 1.6rem;
   padding: 4rem;
+  position: relative;
+}
+.hero-header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.08) 1px,
+      transparent 1px
+    ),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.08) 1px, transparent 1px);
+  background-size: 200px 200px; /* Adjust this for grid cell size */
+  pointer-events: none; /* Ensure grid lines don't block interactions */
 }
 .logo {
   text-transform: uppercase;
