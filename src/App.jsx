@@ -1,10 +1,15 @@
 import React from "react";
-import Navbar from "./Components/navbar/Navbar";
+
+import AboutMe from "./Components/aboutme/AboutMe";
+import Technology from "./Components/technology/Technology";
+import Header from "./Components/header/Header";
 
 const App = () => {
   return (
     <main>
-      <Navbar />
+      <Header />
+      <AboutMe />
+      <Technology />
     </main>
   );
 };
